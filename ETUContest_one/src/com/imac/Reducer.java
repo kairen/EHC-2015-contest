@@ -25,6 +25,7 @@ public class reducer extends Reducer<Text, IntWritable, Text, IntWritable> {
 		arrayListKey.add(key.toString());
 
 	}
+	
 	protected void cleanup(Context context)
 			throws IOException, InterruptedException {
 		Collections.sort(arrayListValue);
