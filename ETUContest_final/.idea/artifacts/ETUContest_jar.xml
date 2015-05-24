@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ETUContest:jar">
+    <output-path>$PROJECT_DIR$/../../ETU</output-path>
+    <root id="archive" name="ETUContest.jar">
+      <element id="module-output" name="ETUContest" />
+    </root>
+  </artifact>
+</component>
