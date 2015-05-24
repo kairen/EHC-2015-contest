@@ -10,6 +10,7 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
 public class reducer extends Reducer<Text, IntWritable, Text, IntWritable> {
+	
 	private IntWritable result = new IntWritable();
 	private Text key = new Text();
 	private ArrayList<Integer> arrayListValue = new ArrayList<Integer>(); 
